@@ -34,7 +34,7 @@
 
 body{
     min-width: 1440px;
-    font-family: font-family: var(var(--font_montserrat))
+    font-family: var(--font_montserrat);
 }
 
 a{
@@ -84,6 +84,14 @@ a:hover{
     padding-right: 30px;
 }
 
+.bold{
+    font-weight: bold;
+}
+
+.m_30{
+    margin-top: 30px;
+}
+
 /* GRID */
 .container_lg {
   width: 100%;
@@ -92,7 +100,7 @@ a:hover{
 }
 
 .container_md {
-  width: 80%%;
+  width: 80%;
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -160,6 +168,8 @@ a:hover{
 
 /* #region Header */
 
+/* Navbar */
+
 .navbar>.row div{
     display: inline-block;
 }
@@ -176,6 +186,39 @@ a:hover{
     text-decoration: none;
     margin-left: 40px;
 }
+
+/* /Navbar */
+
+.site_header .container_md h1{
+    text-align: left;
+    font-size: 4.1rem;
+}
+
+.prova{
+    margin-top: 30px;
+}
+
+.prova a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.annulla{
+    margin-top: 10px;
+}
+
+#img_header{
+    display: inline-block;
+}
+
+#text_header{
+    display: inline-block;
+}
+
+#img_header img{
+    max-width: 100%;
+}
+
 
 /* #region Debug_header */
 
