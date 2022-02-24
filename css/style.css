@@ -1,26 +1,180 @@
+/* Variables */
+
+:root{
+    --font_montserrat: 'Montserrat', sans-serif;
+    --font_rubik: 'Rubik Mono One', sans-serif;
+}
+
+/* #region Common */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+body{
+    min-width: 1440px;
+    font-family: font-family: var(var(--font_montserrat))
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+/* #endregion Common */
+
+/* #region Utility */
+
+/* GRID */
+.container_lg {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.container_md {
+  width: 80%%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.container_sm {
+  width: 70%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.row {
+  width: 100%;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+[class^="col_"] { /* Tutte le classi che all'interno hanno col-, avtranno float:left */
+  float: left;
+}
+
+.col_100{
+    width: 100%;
+}
+
+.col_60{
+    width: 60%;
+}
+
+.col_50{
+    width: 49%;
+}
+
+.col_33{
+    width: 30%;
+}
+
+/*  #endregion Utility */
+
 /* #region Header */
 
-#site_header{
+
+.navbar>.row div{
+    display: inline-block;
+}
+
+#piano>.row div{
+    display: inline-block;
+}
+
+#piano .col_33{
+    margin: 1rem;
+}
+
+#contatto .row{
+    margin: 50px auto;
+}
+
+#contatto .col_60{
+    margin-right: 10%;
+}
+
+#operazioni .col_33{
+    margin: 1rem;
+}
+
+/* #region Debug_header */
+
+.debug .site_header{
     background-color: #ff1c1c60;
     height: 500px;
 }
 
+.debug .navbar{
+    background-color: yellow;
+    height: 50px;
+}
+
+.debug .row{
+    height: 100%;
+}
+
+.debug .col_100{
+    height: 150px;
+}
+
+.debug .col_50{
+    height: 100%;
+}
+
+.debug .col_60{
+    height: 350px;
+}
+
+.debug .col_33{
+    height: 350px;
+    border: 1px solid black;
+}
+
+.debug .bg_green{
+    background-color: green;
+}
+
+.debug #piano{
+    height: 600px;
+    background-color: bisque;
+}
+
+.debug .bg_yellow_green{
+    background-color: yellowgreen;
+}
+/* #endregion Debug_header */
+
+/* #endregion Header */
+
 /* #region Main*/
 
-#site_main{
+/* #region Debug_Main */
+
+.debug .site_main{
     background-color:#0094ce60;
-    height: 1200px;
+    height: 3000px;
 }
+
+/* #endregion Debug_Main */
+
+/* #endregion Main*/
 
 /* #region Footer */
 
-#site_footer{
+/* #region Debug_Footer */
+
+.debug .site_footer{
     background-color: #00000060;
     height: 500px;
 }
+
+/* #endregion Debug_Footer */
+
+/* #endregion Footer */
