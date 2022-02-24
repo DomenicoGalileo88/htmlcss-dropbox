@@ -75,6 +75,10 @@ a:hover{
     width: 30%;
 }
 
+.col_40{
+    width: 40%;
+}
+
 /*  #endregion Utility */
 
 /* #region Header */
@@ -102,6 +106,10 @@ a:hover{
 
 #operazioni .col_33{
     margin: 1rem;
+}
+
+#domande{
+    margin-top:50px;
 }
 
 /* #region Debug_header */
@@ -149,6 +157,25 @@ a:hover{
 .debug .bg_yellow_green{
     background-color: yellowgreen;
 }
+
+.debug #title_business{
+    height: 150px;
+    background-color: aquamarine;
+}
+
+.debug #business .col_40{
+    height: 350px;
+}
+
+.debug #porta{
+    height: 150px;
+    background-color: rgba(228, 160, 13, 0.623);
+}
+
+.debug #domande{
+    height: 300px;
+    background-color: rgba(0, 85, 241, 0.726);
+}
 /* #endregion Debug_header */
 
 /* #endregion Header */
@@ -159,7 +186,7 @@ a:hover{
 
 .debug .site_main{
     background-color:#0094ce60;
-    height: 3000px;
+    height: 2900px;
 }
 
 /* #endregion Debug_Main */
