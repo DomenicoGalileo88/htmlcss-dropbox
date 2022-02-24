@@ -1,8 +1,25 @@
 /* Variables */
 
 :root{
+    /* Font */
     --font_montserrat: 'Montserrat', sans-serif;
     --font_rubik: 'Rubik Mono One', sans-serif;
+
+    /* Color */
+    --bg_color_header: #B4D0E7;
+    --bg_color_button: #0061FF;
+    --color_link: #0262FF;
+    --bg_color_business_box_azure: rgba(0, 147, 206, 1);
+    --bg_color_business_box_blu: rgba(13, 36, 129, 1);
+    --bg_color_business_box_brown: rgba(97, 8, 43, 1);
+    --bg_color_business_box_lightgreen: rgba(162, 211, 155, 1);
+    --bg_color_business_box_lightazure: rgba(180, 208, 231, 1);
+    --bg_color_business_box_red: rgba(213, 0, 31, 1);
+    --bg_color_business_box_lightgrey: rgba(245, 245, 245, 1);
+    --bg_color_business_box_orange: rgba(255, 28, 28, 1);
+    --bg_color_business_box_yellow: rgba(255, 216, 48, 1);
+
+
 }
 
 /* #region Common */
@@ -21,6 +38,36 @@ body{
 a:hover{
     cursor: pointer;
 }
+
+/* #region Debug_Common */
+
+.debug .row{
+    height: 100%;
+}
+
+.debug .col_100{
+    height: 150px;
+}
+
+.debug .col_50{
+    height: 100%;
+}
+
+.debug .col_60{
+    height: 350px;
+}
+
+.debug .col_33{
+    height: 350px;
+    border: 1px solid black;
+}
+
+.debug .bg_green{
+    background-color: green;
+}
+
+/* #endregion Debug_Common */
+
 
 /* #endregion Common */
 
@@ -91,25 +138,8 @@ a:hover{
 
 /* #region Header */
 
-
 .navbar>.row div{
     display: inline-block;
-}
-
-#piano>.row div{
-    display: inline-block;
-}
-
-#contatto .row{
-    margin: 50px auto;
-}
-
-#domande{
-    margin-top:50px;
-}
-
-.site_footer .col_20{
-    margin-top: 50px;
 }
 
 /* #region Debug_header */
@@ -124,29 +154,29 @@ a:hover{
     height: 50px;
 }
 
-.debug .row{
-    height: 100%;
+/* #endregion Debug_header */
+
+/* #endregion Header */
+
+/* #region Main*/
+
+#piano>.row div{
+    display: inline-block;
 }
 
-.debug .col_100{
-    height: 150px;
+#contatto .row{
+    margin: 50px auto;
 }
 
-.debug .col_50{
-    height: 100%;
+#domande{
+    margin-top:50px;
 }
 
-.debug .col_60{
-    height: 350px;
-}
+/* #region Debug_Main */
 
-.debug .col_33{
-    height: 350px;
-    border: 1px solid black;
-}
-
-.debug .bg_green{
-    background-color: green;
+.debug .site_main{
+    background-color:#0094ce60;
+    height: 2900px;
 }
 
 .debug #piano{
@@ -185,24 +215,15 @@ a:hover{
     background-color: rgba(0, 85, 241, 0.726);
 }
 
-/* #endregion Debug_header */
-
-/* #endregion Header */
-
-/* #region Main*/
-
-/* #region Debug_Main */
-
-.debug .site_main{
-    background-color:#0094ce60;
-    height: 2900px;
-}
-
 /* #endregion Debug_Main */
 
 /* #endregion Main*/
 
 /* #region Footer */
+
+.site_footer .col_20{
+    margin-top: 50px;
+}
 
 /* #region Debug_Footer */
 
