@@ -6,6 +6,8 @@
     --font_rubik: 'Rubik Mono One', sans-serif;
 
     /* Color */
+    --white: #ffffff;
+    --black: #000000;
     --bg_color_header: #B4D0E7;
     --bg_color_button: #0061FF;
     --color_link: #0262FF;
@@ -33,6 +35,10 @@
 body{
     min-width: 1440px;
     font-family: font-family: var(var(--font_montserrat))
+}
+
+a{
+    color: var(--black);
 }
 
 a:hover{
@@ -72,6 +78,11 @@ a:hover{
 /* #endregion Common */
 
 /* #region Utility */
+
+.text_right{
+    text-align: right;
+    padding-right: 30px;
+}
 
 /* GRID */
 .container_lg {
@@ -134,12 +145,36 @@ a:hover{
     width: 20%;
 }
 
+/* Button */
+
+.btn{
+    padding: 5px 15px;
+}
+
+.btn_blue{
+    color: var(--white);
+    background-color: var(--bg_color_button);
+}
+
 /*  #endregion Utility */
 
 /* #region Header */
 
 .navbar>.row div{
     display: inline-block;
+}
+
+.navbar .col_50{
+    padding-top: 15px;
+}
+
+.navbar img{
+    vertical-align: middle;
+}
+
+.navbar a{
+    text-decoration: none;
+    margin-left: 40px;
 }
 
 /* #region Debug_header */
