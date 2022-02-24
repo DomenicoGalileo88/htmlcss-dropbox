@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* #region Header */
+
+#site_header{
+    background-color: #ff1c1c60;
+    height: 500px;
+}
+
+/* #region Main*/
+
+#site_main{
+    background-color:#0094ce60;
+    height: 1200px;
+}
+
+/* #region Footer */
+
+#site_footer{
+    background-color: #00000060;
+    height: 500px;
+}
