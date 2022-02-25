@@ -337,6 +337,7 @@ a:hover{
 
 /* #region Main*/
 
+/* #region Section piano */
 #piano>.row>div{
     display: inline-block;
     text-align: center;
@@ -428,9 +429,33 @@ a:hover{
     float: right;
 }
 
+/* #endregion Section piano */
+
+
+/* #region Section contatto */
 #contatto .row{
     margin: 50px auto;
 }
+
+#contatto .col_60>img{
+    max-width: 100%;
+}
+
+#contatto .col_40>h2{
+    font-size: 24px;
+}
+
+#contatto .col_40>p{
+    font-weight: 600;
+}
+
+#contatto .col_40>a{
+    display: inline-block;
+    border: 1px solid var(--black);
+    font-weight: 600;
+}
+
+/* #endregion Section contatto */
 
 #domande{
     margin-top:50px;
