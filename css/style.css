@@ -2,8 +2,7 @@
 
 :root{
     /* Font */
-    --font_montserrat: 'Montserrat', sans-serif;
-    --font_rubik: 'Rubik Mono One', sans-serif;
+    --font_open_sans:'Open Sans', sans-serif;
 
     /* Color */
     --white: #ffffff;
@@ -34,7 +33,7 @@
 
 body{
     min-width: 1440px;
-    font-family: var(--font_montserrat);
+    font-family: var(--font_open_sans);
 }
 
 a{
@@ -44,6 +43,8 @@ a{
 a:hover{
     cursor: pointer;
 }
+
+
 
 /* #region Debug_Common */
 
@@ -90,6 +91,22 @@ a:hover{
 
 .m_30{
     margin-top: 30px;
+}
+
+.pt_9{
+    padding-top: 9rem;
+}
+
+.pb_3{
+    padding-bottom: 3rem;
+}
+
+.mt_2{
+    margin-top: 2rem;
+}
+
+.mr_3{
+    margin-right: 3rem;
 }
 
 /* GRID */
@@ -245,6 +262,10 @@ a:hover{
 
 #piano>.row div{
     display: inline-block;
+}
+
+#piano h2{
+    font-size: 2.2rem;
 }
 
 #contatto .row{
