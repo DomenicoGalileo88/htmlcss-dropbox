@@ -7,6 +7,8 @@
     /* Color */
     --white: #ffffff;
     --black: #000000;
+    --grey: grey;
+    --lightgrey: lightgrey;
     --bg_color_header: #B4D0E7;
     --bg_color_button: #0061FF;
     --color_link: #0262FF;
@@ -85,12 +87,34 @@ a:hover{
     padding-right: 30px;
 }
 
+.text_left{
+    text-align: left;
+}
+
+.text_center{
+    text-align: center;
+}
+
 .bold{
     font-weight: bold;
 }
 
+.regular{
+    font-weight: 600;
+}
+
+/* Spaces */
+
+.m_auto{
+    margin: 0 auto;
+}
+
 .m_30{
     margin-top: 30px;
+}
+
+.p_tot_1{
+    padding: 1rem;
 }
 
 .pt_9{
@@ -101,12 +125,40 @@ a:hover{
     padding-bottom: 3rem;
 }
 
+.pl_3{
+    padding: 1rem 3rem;
+}
+
+.mt_1{
+    margin-top: 1rem;
+}
+
 .mt_2{
     margin-top: 2rem;
 }
 
+.mt_3{
+    margin-top: 3rem;
+}
+
 .mr_3{
     margin-right: 3rem;
+}
+
+.mtb_2{
+    margin: 2rem 0;
+}
+
+.mtb_3{
+    margin: 3rem 0;
+}
+
+.bor_1{
+    border: 1px solid var(--lightgrey);
+}
+
+.bor_b_1{
+    border-bottom: 1px solid var(--lightgrey);
 }
 
 /* GRID */
@@ -174,6 +226,12 @@ a:hover{
 
 .btn{
     padding: 5px 15px;
+    text-decoration: none;
+}
+
+.btn_prova_30_gg{
+    padding: 5px 35px;
+    text-decoration: none;
 }
 
 .btn_blue{
@@ -260,12 +318,48 @@ a:hover{
 
 /* #region Main*/
 
-#piano>.row div{
+#piano>.row>div{
     display: inline-block;
+    text-align: center;
 }
 
 #piano h2{
     font-size: 2.2rem;
+}
+
+#piano h3{
+    font-size: 2rem;
+}
+
+#piano .price{
+    display: inline-block;
+}
+
+#piano .mese{
+    color: var(--grey);
+}
+
+#piano .prova_30_gg{
+    display: inline-block;
+    margin: 2rem;
+}
+
+#piano .acquista{
+    color: var(--color_link);
+}
+
+#piano .small_hr{
+    border: 0.5px solid var(--lightgrey);
+    width: 20%;
+}
+
+#piano .punti_salienti ul{
+    list-style: none;
+    list-style-position: outside;
+}
+
+#piano .check{
+    color: var(--color_link);
 }
 
 #contatto .row{
