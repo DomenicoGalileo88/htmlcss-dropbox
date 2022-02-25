@@ -121,6 +121,10 @@ a:hover{
     padding-top: 9rem;
 }
 
+.pb_1{
+    padding-bottom: 1rem;
+}
+
 .pb_3{
     padding-bottom: 3rem;
 }
@@ -198,6 +202,10 @@ a:hover{
     width: 100%;
 }
 
+.col_70{
+    width: 70%;
+}
+
 .col_60{
     width: 60%;
 }
@@ -212,6 +220,11 @@ a:hover{
 
 .col_33{
     width: 33.33%;
+}
+
+.col_33_piano{
+    width: 33.3%;
+    height: 1100px;
 }
 
 .col_30{
@@ -230,6 +243,12 @@ a:hover{
 }
 
 .btn_prova_30_gg{
+    padding: 5px 35px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.btn_ufficio_vendite{
     padding: 5px 35px;
     text-decoration: none;
 }
@@ -323,6 +342,14 @@ a:hover{
     text-align: center;
 }
 
+#piano .col_33_piano{
+    padding: 1.5rem;
+}
+
+#piano .col_100{
+    padding: 1.5rem;
+}
+
 #piano h2{
     font-size: 2.2rem;
 }
@@ -331,12 +358,29 @@ a:hover{
     font-size: 2rem;
 }
 
+#piano .hr_color{
+    border-top: 1px solid var(--lightgrey);
+}
+
+#piano .hr_dim_lg{
+    width: 117%;
+    position: relative;
+    right: 25px;
+}
+
+#piano .hr_dim{
+    width: 105.2%;
+    position: relative;
+    right: 25px;
+}
+
 #piano .price{
     display: inline-block;
 }
 
 #piano .mese{
     color: var(--grey);
+    font-size: 13px;
 }
 
 #piano .prova_30_gg{
@@ -349,17 +393,39 @@ a:hover{
 }
 
 #piano .small_hr{
-    border: 0.5px solid var(--lightgrey);
+    border-top: 1px solid var(--lightgrey);
     width: 20%;
 }
 
-#piano .punti_salienti ul{
+#piano .punti_salienti ul>li{
     list-style: none;
-    list-style-position: outside;
+    margin-bottom: 1.5rem;
+    font-size: 13px;
+    font-weight: 600;
 }
 
 #piano .check{
     color: var(--color_link);
+}
+
+#piano .col_100{
+    margin-top: 2rem ;
+}
+
+#piano .col_70>h3{
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+}
+
+#piano .col_70>h4{
+    margin-bottom: 1rem;
+}
+
+#piano .col_30>a{
+    display: inline-block;
+    margin-top: 1.5rem;
+    font-size: 12px;
+    float: right;
 }
 
 #contatto .row{
