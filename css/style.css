@@ -176,10 +176,11 @@ a:hover{
 
 .navbar .col_50{
     padding-top: 15px;
+    line-height: 2;
 }
 
 .navbar img{
-    vertical-align: middle;
+    vertical-align: sub;
 }
 
 .navbar a{
@@ -189,13 +190,18 @@ a:hover{
 
 /* /Navbar */
 
+.site_header{
+    background-color: var(--bg_color_header);
+    height: 600px;
+}
+
 .site_header .container_md h1{
     text-align: left;
     font-size: 4.1rem;
 }
 
 .prova{
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .prova a{
@@ -215,17 +221,16 @@ a:hover{
     display: inline-block;
 }
 
+#text_header .arrow_down{
+    font-size: 2rem;
+}
+
 #img_header img{
     max-width: 100%;
 }
 
 
 /* #region Debug_header */
-
-.debug .site_header{
-    background-color: #ff1c1c60;
-    height: 500px;
-}
 
 .debug .navbar{
     background-color: yellow;
@@ -253,7 +258,7 @@ a:hover{
 /* #region Debug_Main */
 
 .debug .site_main{
-    background-color:#0094ce60;
+    background-color:#e6ff0160;
     height: 2900px;
 }
 
