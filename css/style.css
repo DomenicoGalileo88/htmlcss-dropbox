@@ -82,6 +82,10 @@ a:hover{
 
 /* #region Utility */
 
+.f_size_2{
+    font-size: 2.2rem;
+}
+
 .text_right{
     text-align: right;
     padding-right: 30px;
@@ -115,6 +119,10 @@ a:hover{
 
 .p_tot_1{
     padding: 1rem;
+}
+
+.p_tot_2{
+    padding: 2rem;
 }
 
 .pt_9{
@@ -155,6 +163,10 @@ a:hover{
 
 .mtb_3{
     margin: 3rem 0;
+}
+
+.mb_1{
+    margin-bottom: 1rem;
 }
 
 .bor_1{
@@ -351,10 +363,6 @@ a:hover{
     padding: 1.5rem;
 }
 
-#piano h2{
-    font-size: 2.2rem;
-}
-
 #piano h3{
     font-size: 2rem;
 }
@@ -456,6 +464,23 @@ a:hover{
 }
 
 /* #endregion Section contatto */
+
+/* #region Section operazioni */
+
+#operazioni img{
+    max-width: 100%;
+}
+
+#operazioni .col_33 h3{
+    font-size: 24px;
+    margin-bottom: 1rem;
+}
+
+#operazioni .col_33 p{
+    font-weight: 600;
+}
+
+/* #endregion Section operazioni */
 
 #domande{
     margin-top:50px;
