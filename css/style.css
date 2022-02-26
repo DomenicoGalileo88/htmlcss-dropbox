@@ -491,6 +491,25 @@ a:hover{
 
 /* #region Section operazioni */
 
+#operazioni img{
+    max-width: 100%;
+}
+
+#operazioni .col_33 h3{
+    font-size: 24px;
+    margin-bottom: 1rem;
+}
+
+#operazioni .col_33 p{
+    font-weight: 600;
+}
+
+/* #endregion Section operazioni */
+
+/* #region Section Business */
+
+
+
 #title_business{
     margin-top: 4rem;
     padding: 2rem ;
@@ -499,8 +518,6 @@ a:hover{
 #title_business>a{
     color: var(--color_link);
 }
-
-/* #region Section Business */
 
 #business .team{
     width: 50%;
@@ -573,21 +590,33 @@ a:hover{
 
 /* #endregion Section Business */
 
+/* #region Section porta */
 
-#operazioni img{
-    max-width: 100%;
+#porta{
+    background-color: var(--bg_color_header);
 }
 
-#operazioni .col_33 h3{
+#porta .content_porta{
+    display: inline-block;
+    padding: 3rem 14rem;
+}
+
+#porta h2{
+    display: inline-block;
     font-size: 24px;
+    margin-right: 18rem;
+    color: var(--bg_color_business_box_brown);
+}
+
+#porta a{
+    background-color: var(--white);
     margin-bottom: 1rem;
+    display: inline-block;
+    position: relative;
+    bottom: 37px;
 }
 
-#operazioni .col_33 p{
-    font-weight: 600;
-}
-
-/* #endregion Section operazioni */
+/* #endregion Section porta */
 
 #domande{
     margin-top:50px;
