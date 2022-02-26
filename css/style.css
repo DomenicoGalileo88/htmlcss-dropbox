@@ -15,7 +15,8 @@
     --bg_color_business_box_azure: rgba(0, 147, 206, 1);
     --bg_color_business_box_blu: rgba(13, 36, 129, 1);
     --bg_color_business_box_brown: rgba(97, 8, 43, 1);
-    --bg_color_business_box_lightgreen: rgba(162, 211, 155, 1);
+    --bg_color_business_box_lightgreen_trasp: rgba(208, 233, 205, 1);
+      --bg_color_business_box_lightgreen: rgb(162, 211, 155);
     --bg_color_business_box_lightazure: rgba(180, 208, 231, 1);
     --bg_color_business_box_red: rgba(213, 0, 31, 1);
     --bg_color_business_box_lightgrey: rgba(245, 245, 245, 1);
@@ -109,6 +110,14 @@ a:hover{
 
 /* Spaces */
 
+.pos_absolute{
+    position: absolute;
+}
+
+.pos_relative{
+    position: relative;
+}
+
 .m_auto{
     margin: 0 auto;
 }
@@ -139,6 +148,10 @@ a:hover{
 
 .pl_3{
     padding: 1rem 3rem;
+}
+
+.m_2{
+    margin: 2rem;
 }
 
 .mt_1{
@@ -230,6 +243,12 @@ a:hover{
     width: 40%;
 }
 
+.col_40_business{
+    width: 
+    30%;
+    height: 432px;
+}
+
 .col_33{
     width: 33.33%;
 }
@@ -241,6 +260,11 @@ a:hover{
 
 .col_30{
     width: 30%;
+}
+
+.col_30_business{
+    width: 30%;
+    height: 432px;
 }
 
 .col_20{
@@ -475,6 +499,80 @@ a:hover{
 #title_business>a{
     color: var(--color_link);
 }
+
+/* #region Section Business */
+
+#business .team{
+    width: 50%;
+    height: 50%;
+    display: inline-block;
+}
+
+#business .col_30_business img{
+    max-width: 70%;
+    filter: invert(1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#business .col_40_business>img{
+    max-width: 37%;
+}
+
+ #business .col_40_business .small_hr{
+    border-top: 1px solid var(--lightgrey);
+    width: 20%;
+}
+
+#business .col_40_business>p{
+    font-weight: 600;
+}
+.designit{
+    background-color: var(--bg_color_business_box_lightgreen);
+    border: 8px solid var(--bg_color_business_box_lightgreen_trasp);
+}
+
+.asu{
+    background-color: var(--bg_color_business_box_brown);
+    left: 50%;
+}
+
+.uf{
+    background-color: var(--bg_color_business_box_azure);
+    top: 50%;
+}
+
+.topps{
+    background-color: var(--bg_color_business_box_orange);
+    top: 50%;
+    left:50%;
+}
+
+.world_bicycle{
+    background-color: var(--bg_color_business_box_red);
+}
+
+.hearst{
+    background-color: var(--bg_color_business_box_lightazure);
+    left: 50%;
+}
+
+.lonely{
+    background-color: var(--bg_color_business_box_blu);
+    top: 50%;
+}
+
+.clear_ch{
+    background-color: var(--bg_color_business_box_yellow);
+    top: 50%;
+    left:50%;
+}
+
+
+/* #endregion Section Business */
+
 
 #operazioni img{
     max-width: 100%;
