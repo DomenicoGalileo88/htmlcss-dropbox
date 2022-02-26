@@ -467,6 +467,15 @@ a:hover{
 
 /* #region Section operazioni */
 
+#title_business{
+    margin-top: 4rem;
+    padding: 2rem ;
+}
+
+#title_business>a{
+    color: var(--color_link);
+}
+
 #operazioni img{
     max-width: 100%;
 }
