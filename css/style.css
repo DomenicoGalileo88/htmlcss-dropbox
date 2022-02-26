@@ -244,8 +244,7 @@ a:hover{
 }
 
 .col_40_business{
-    width: 
-    30%;
+    width: 40%;
     height: 432px;
 }
 
@@ -603,8 +602,7 @@ a:hover{
 
 #porta h2{
     display: inline-block;
-    font-size: 24px;
-    margin-right: 18rem;
+    margin-right: 17rem;
     color: var(--bg_color_business_box_brown);
 }
 
@@ -614,13 +612,33 @@ a:hover{
     display: inline-block;
     position: relative;
     bottom: 37px;
+    padding: 5px 50px;
 }
 
 /* #endregion Section porta */
 
+/* #region Section Domande */
+
 #domande{
     margin-top:50px;
 }
+
+#domande>h3{
+    font-size: 24px;
+    margin-bottom: 2.5rem;
+}
+
+#domande hr{
+    border-top: 1px solid var(--lightgrey);
+}
+
+#domande p{
+    font-size: 13px;
+    display: inline-block;
+    margin: 2.5rem 25rem 2.5rem 0;
+    font-weight: bold;
+}
+/* #endregion Section Domande */
 
 /* #region Debug_Main */
 
