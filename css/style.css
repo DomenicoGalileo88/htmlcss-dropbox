@@ -11,7 +11,7 @@
     --lightgrey: lightgrey;
     --bg_color_header: #B4D0E7;
     --bg_color_button: #0061FF;
-    --color_link: #0262FF;
+    --color_link: #0093ce;
     --bg_color_business_box_azure: rgba(0, 147, 206, 1);
     --bg_color_business_box_blu: rgba(13, 36, 129, 1);
     --bg_color_business_box_brown: rgba(97, 8, 43, 1);
@@ -199,7 +199,7 @@ a:hover{
 
 .container_md {
   width: 80%;
-  max-width: 1440px;
+  max-width: 1152px;
   margin: 0 auto;
 }
 
@@ -298,6 +298,10 @@ a:hover{
 /* #region Header */
 
 /* Navbar */
+
+.navbar{
+    background-color: var(--white);
+}
 
 .navbar>.row div{
     display: inline-block;
@@ -689,8 +693,45 @@ a:hover{
 
 /* #region Footer */
 
+.site_footer{
+    background-color: var(--black);
+    color: var(--white);
+}
+
+#column_footer .col_20 h3 {
+    font-size: 16px;
+    margin-bottom: 1.5rem;
+}
+
+#column_footer{
+    padding: 5rem 0;
+}
+
 .site_footer .col_20{
-    margin-top: 50px;
+    padding-right: 2rem;
+}
+
+#column_footer .col_20 li{
+    font-size: 13px;
+    list-style: none;
+    margin-bottom: 0.6rem;
+}
+
+#column_footer hr{
+    display: inline-block;
+    width: 7rem;
+    border-top: 1px solid var(--lightgrey);
+    margin-top: 6rem;
+}
+
+.site_footer .icon{
+    color: var(--grey);
+    padding-bottom: 2rem;
+}
+
+.site_footer .container_md .dim_i{
+    font-size: 10px;
+    vertical-align: middle;
 }
 
 /* #region Debug_Footer */
