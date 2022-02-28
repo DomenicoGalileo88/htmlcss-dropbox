@@ -13,6 +13,7 @@
     --bg_color_button: #0061FF;
     --color_link: rgba(0, 97, 255, 1);
     --color_radiobox: rgba(0, 97, 255, 1);
+    --color_menù_link: #f2eee8;
     --bg_color_business_box_azure: rgba(0, 147, 206, 1);
     --bg_color_business_box_blu: rgba(13, 36, 129, 1);
     --bg_color_business_box_brown: rgba(97, 8, 43, 1);
@@ -326,6 +327,14 @@ input[type="radio"]:checked{
     display: inline-block;
 }
 
+.navbar li{
+    list-style: none;
+}
+
+.navbar .list_nav>li{
+    display: inline-block;
+}
+
 .navbar .col_50{
     padding-top: 15px;
     line-height: 2;
@@ -343,12 +352,11 @@ input[type="radio"]:checked{
 #container_link{
     width: 650px;
     display: none;
-    background-color: antiquewhite;
+    background-color: var(--color_menù_link);
     z-index: 1000;
     position: absolute;
-    left:29%;
-    top: 135%;
-
+    left:212px;
+    top: 100%;
 }
 
 #container_link h4{
@@ -356,7 +364,6 @@ input[type="radio"]:checked{
 }
 
 #container_link li{
-    list-style: none;
     font-size: 15px;
     font-weight: 600;
     padding: 10px 0;
@@ -372,12 +379,9 @@ input[type="radio"]:checked{
 }
 
 #link_perchè_dropbox:hover{
-    background-color: antiquewhite;
-    padding: 2rem;
+    background-color: var(--color_menù_link);
+    padding: 1.5rem;
 }
-
-
-
 
 /* #endregion /Navbar */
 
