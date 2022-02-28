@@ -223,6 +223,11 @@ input[type="radio"]:checked{
   margin: 0 auto;
 }
 
+.container_link{
+    width: 30%;
+    max-width: 432px;
+}
+
 .row {
   width: 100%;
 }
@@ -311,7 +316,7 @@ input[type="radio"]:checked{
 
 /* #region Header */
 
-/* Navbar */
+/* #region Navbar */
 
 .navbar{
     background-color: var(--white);
@@ -335,7 +340,46 @@ input[type="radio"]:checked{
     margin-left: 40px;
 }
 
-/* /Navbar */
+#container_link{
+    width: 650px;
+    display: none;
+    background-color: antiquewhite;
+    z-index: 1000;
+    position: absolute;
+    left:29%;
+    top: 135%;
+
+}
+
+#container_link h4{
+    font-size: 18px;
+}
+
+#container_link li{
+    list-style: none;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 0;
+    line-height: 1.2;
+}
+
+#container_link .col_33{
+    padding: 20px;
+}
+
+#link_perchè_dropbox:hover + #container_link{
+    display: block;
+}
+
+#link_perchè_dropbox:hover{
+    background-color: antiquewhite;
+    padding: 2rem;
+}
+
+
+
+
+/* #endregion /Navbar */
 
 .site_header{
     background-color: var(--bg_color_header);
