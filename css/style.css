@@ -11,7 +11,8 @@
     --lightgrey: lightgrey;
     --bg_color_header: #B4D0E7;
     --bg_color_button: #0061FF;
-    --color_link: #0093ce;
+    --color_link: rgba(0, 97, 255, 1);
+    --color_radiobox: rgba(0, 97, 255, 1);
     --bg_color_business_box_azure: rgba(0, 147, 206, 1);
     --bg_color_business_box_blu: rgba(13, 36, 129, 1);
     --bg_color_business_box_brown: rgba(97, 8, 43, 1);
@@ -22,8 +23,6 @@
     --bg_color_business_box_lightgrey: rgba(245, 245, 245, 1);
     --bg_color_business_box_orange: rgba(255, 28, 28, 1);
     --bg_color_business_box_yellow: rgba(255, 216, 48, 1);
-
-
 }
 
 /* #region Common */
@@ -46,8 +45,6 @@ a{
 a:hover{
     cursor: pointer;
 }
-
-
 
 /* #region Debug_Common */
 
@@ -196,18 +193,16 @@ a:hover{
 
 .color_radio{
     appearance:initial;
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
     border: solid 1px var(--black);
     border-radius: 50%;
 }
 
 input[type="radio"]:checked{
-    border: 1px solid blue;
-    background-color: blue;
+    border: 4px solid var(--color_radiobox);
+    background-color: var(--white);
 }
-
-
 
 /* GRID */
 .container_lg {
@@ -382,7 +377,6 @@ input[type="radio"]:checked{
     max-width: 100%;
 }
 
-
 /* #region Debug_header */
 
 .debug .navbar{
@@ -500,7 +494,7 @@ input[type="radio"]:checked{
 }
 
 #piano .col_70>h4{
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 #piano .col_30>a{
@@ -522,6 +516,10 @@ input[type="radio"]:checked{
     max-width: 100%;
 }
 
+#contatto .col_40{
+    padding: 2rem 0rem 2rem 3rem;
+}
+
 #contatto .col_40>h2{
     font-size: 24px;
 }
@@ -540,6 +538,10 @@ input[type="radio"]:checked{
 
 /* #region Section operazioni */
 
+#operazioni{
+    margin-top: 4rem;
+}
+
 #operazioni img{
     max-width: 100%;
 }
@@ -557,10 +559,8 @@ input[type="radio"]:checked{
 
 /* #region Section Business */
 
-
-
 #title_business{
-    margin-top: 4rem;
+    margin-top: 4.5rem;
     padding: 2rem ;
 }
 
@@ -572,6 +572,7 @@ input[type="radio"]:checked{
     width: 50%;
     height: 50%;
     display: inline-block;
+    padding-top: 1rem;
 }
 
 #business .col_30_business img{
@@ -635,7 +636,6 @@ input[type="radio"]:checked{
     top: 50%;
     left:50%;
 }
-
 
 /* #endregion Section Business */
 
@@ -745,7 +745,7 @@ input[type="radio"]:checked{
 }
 
 #column_footer .col_20 h3 {
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 1.5rem;
 }
 
