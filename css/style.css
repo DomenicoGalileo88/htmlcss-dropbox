@@ -142,6 +142,10 @@ a:hover{
     padding-bottom: 1rem;
 }
 
+.pb_2{
+    padding-bottom: 2rem;
+}
+
 .pb_3{
     padding-bottom: 3rem;
 }
@@ -188,6 +192,16 @@ a:hover{
 
 .bor_b_1{
     border-bottom: 1px solid var(--lightgrey);
+}
+
+.color_radio{
+    width: 10px;
+    height: 10px;
+    background-color: #005cc8;
+    appearance: initial;
+    border: 2px solid #0e0e0f;
+    padding: 4px;
+    border-radius: 50%;
 }
 
 /* GRID */
@@ -348,6 +362,7 @@ a:hover{
 
 #img_header{
     display: inline-block;
+    margin-bottom: 6rem;
 }
 
 #text_header{
@@ -419,6 +434,20 @@ a:hover{
     font-size: 13px;
 }
 
+#piano .icon{
+    position: relative;
+}
+
+#piano .icon i{
+    position: absolute;
+    top: 3px;
+}
+
+#piano .icon>span{
+    display: inline-block;
+    padding-left: 20px;;
+}
+
 #piano .prova_30_gg{
     display: inline-block;
     margin: 2rem;
@@ -434,6 +463,7 @@ a:hover{
 }
 
 #piano .punti_salienti ul>li{
+    position: relative;
     list-style: none;
     margin-bottom: 1.5rem;
     font-size: 13px;
@@ -442,6 +472,13 @@ a:hover{
 
 #piano .check{
     color: var(--color_link);
+    position: absolute;
+    top: 2px;
+}
+
+#piano .punti_salienti li>span{
+    display: inline-block;
+    padding-left: 20px;;
 }
 
 #piano .col_100{
