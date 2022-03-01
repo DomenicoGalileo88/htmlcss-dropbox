@@ -184,6 +184,10 @@ a:hover{
     margin-bottom: 1rem;
 }
 
+.mr_35{
+    margin-right: 35px;
+}
+
 .bor_1{
     border: 1px solid var(--lightgrey);
 }
@@ -273,7 +277,7 @@ input[type="radio"]:checked{
 }
 
 .col_33_piano{
-    width: 33.3%;
+    width: 31.1%;
     height: 1100px;
 }
 
